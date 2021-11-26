@@ -1,0 +1,383 @@
+.italica {
+	font-style: italic;
+}
+.negrita {
+	font-family: 'Zilla Slab', serif;
+	font-size: 13px;
+	font-weight: bold;
+}
+.textoGrande {
+	font-size: 15px;
+}
+.impact {
+	font-family: impact;
+}
+.centrar {
+	text-align: center;
+}
+
+}
+.textoMedio {
+	font-size: 15px;
+}
+
+.altura {
+	height: 130px;
+}
+
+body {
+	background-image: url(https://cdn.pixabay.com/photo/2016/10/17/14/31/background-1747777_960_720.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+ 
+}
+h1{
+	font-family: 'IM Fell English SC', serif;
+}
+h2 {
+	font-family: 'Julius Sans One', sans-serif;
+}
+h3 {
+	font-size: 13px;
+}
+
+p {
+	font-family: 'Cuprum', sans-serif;
+}
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+
+section {
+	margin: 50px 50px 50px 50px
+}
+footer {
+	margin: 15px 15px 15px 15px
+}
+
+article {
+	margin: 25px 50px 25px 50px
+}
+iframe {
+	margin: 10px 50px 10px 50px
+}
+
+header {
+	margin: 5px 20px 5px 50px
+}
+article {
+	border: outset;
+}
+
+li {
+   display: inline-block;
+   margin-left: 5px
+}
+nav {
+	display: flex;
+	flex-direction: row-reverse;
+	margin-right: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 300px
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr
+}
+
+.img {
+	width: 300px;
+	height: auto;
+	margin: auto;
+	display: block;
+}
+
+.headerfoto {
+	width: 80%;
+	border-radius: 10px
+}
+
+div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%
+}
+.bordelogo {
+	border-radius: 150px;
+	width: 70px
+}
+
+section img:hover{
+	transform: scale(0.9);
+	transition: all 0.5s
+}
+footer img:hover{
+	transform: scale(1.2);
+	transition: all 0.2s
+}
+
+.foto {
+	width: 400px
+}
+.tamani{
+	font-size: 14px
+}
+
+.tamanovideo {
+	width: 400px
+}
+
+.tamanochakra {
+	width: 400px
+}
+.lista {
+	font-size: 10px;
+	font-family: 'Zilla Slab', serif;
+	font-weight: bold;
+}
+
+
+	/*MEDIA QUERIES*/	
+
+/*TABLET*/
+@media (min-width: 600px) and (max-width: 1024px) {
+	body {
+		background-image: url(https://cdn.pixabay.com/photo/2016/10/17/14/31/background-1747777_960_720.jpg);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+.headerfoto {
+	width: 82%;
+	border-radius: 10px
+}
+
+li {
+   display: inline-block;
+   margin-left: 10px
+}
+.textoGrande {
+	font-size: 20px;
+}
+.img {
+	width: 300px;
+	height: auto;
+	margin: auto;
+	display: block;
+}
+.negrita {
+	font-family: 'Zilla Slab', serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+.grid {
+	display: grid;
+	grid-template-columns: 400px 400px
+}
+.altura {
+	height: 250px;
+}
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%
+}
+.bordelogo {
+	border-radius: 150px;
+	width: 130px;
+}
+
+section img:hover{
+	transform: scale(0.9);
+	transition: all 0.5s
+}
+footer img:hover{
+	transform: scale(1.2);
+	transition: all 0.2s
+}
+
+.foto {
+	height: 250px
+
+}
+.tamani{
+	font-size: 13px
+}
+.textoMedio {
+	font-size: 18px;
+}
+.tamanovideo {
+	width: 600px
+}
+
+.tamanochakra {
+	width: 400px
+}
+.lista {
+	font-size: 13px;
+	font-family: 'Zilla Slab', serif;
+	font-weight: bold;
+}
+
+}
+
+
+/*DESKTOP*/
+@media (min-width: 1025px) {
+	body {
+		background-image: url(https://cdn.pixabay.com/photo/2016/10/17/14/31/background-1747777_960_720.jpg);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+.textoGrande {
+	font-size: 35px;
+}
+.altura {
+	height: 400px;
+}
+section {
+	margin: 100px 100px 100px 100px
+}
+footer {
+	margin: 15px 15px 15px 15px
+}
+article {
+	margin: 50px 100px 50px 100px
+}
+iframe {
+	margin: 20px 100px 20px 100px
+}
+header {
+	margin: 10px -50px 10px 100px
+}
+li {
+   display: inline-block;
+   margin-left: 25px
+}
+nav {
+	display: flex;
+	flex-direction: row-reverse;
+	margin-right: 100px;
+
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 700px 700px
+}
+  
+}
+.lista {
+	font-size: 18px;
+	font-family: 'Zilla Slab', serif;
+}
+.negrita {
+	font-family: 'Zilla Slab', serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+h3 {
+	font-size: 18px;
+}
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+
+div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%
+
+}
+
+.bordelogo {
+	border-radius: 150px;
+	width: 50px;
+}
+
+section img:hover{
+	transform: scale(0.9);
+	transition: all 0.5s
+}
+footer img:hover{
+	transform: scale(1.2);
+	transition: all 0.2s
+}
+
+.img {
+	height: auto;
+	margin: auto;
+	width: 400px;
+	display: block;
+}
+
+.foto {
+	width: 700px
+}
+
+.tamanito {
+	font-size: 20px
+}
+.tamani{
+	font-size: 18px
+}
+
+.textoMedio {
+	font-size: 20px;
+}
+.tamanovideo {
+	width: 700px
+}
+
+.tamanochakra {
+	width: 500px
+}
+.headerfoto {
+	width: 76%;
+	border-radius: 10px
+}
+
+.nosub {
+	text-decoration: none;
+}
+
+.asd {
+	margin: 4px
+}
+div p
+{
+	font-size: 18px
+}
+article h2 {
+	margin: 10px
+}
+
+.imgquien {
+	width: 700px;
+	height: auto;
+	margin: auto;
+	display: block;
+}
+
+}
